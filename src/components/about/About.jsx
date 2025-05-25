@@ -1,6 +1,4 @@
 import React from "react";
-import TypingAnimator from "react-typing-animator";
-import "react-typing-animator/styles.css";
 import myphoto from "../../assets/myphoto.jpeg";
 
 const About = () => {
@@ -22,7 +20,7 @@ const About = () => {
           <div className="flex items-center gap-3 mb-4">
             <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold text-[#8245ec] leading-tight flex items-center">
               <span className="text-white text-[24px]">I am a&nbsp;</span>
-              <TypingAnimator
+              {/* <TypingAnimator
                 textArray={[
                   "Fullstack Developer",
                   "Problem Solver",
@@ -43,7 +41,7 @@ const About = () => {
                   fontFamily: "Helvetica",
                   fontWeight: "600",
                 }}
-              />
+              /> */}
             </h3>
           </div>
 
