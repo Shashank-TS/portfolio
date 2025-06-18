@@ -41,6 +41,10 @@ import removebgLogo from './assets/work_logo/remove_bg.png';
 import weatherApp from './assets/work_logo/weather_app.png'
 import emailReply from './assets/work_logo/email_reply.png'
 import githubps from './assets/work_logo/githubps.png'
+import quickblog from './assets/work_logo/quickblog.png'
+import prescripto from './assets/work_logo/prescripto.png'
+
+
 
 
 export const SkillsInfo = [
@@ -70,7 +74,7 @@ export const SkillsInfo = [
     title: 'Languages',
     skills: [
       { name: 'Java', logo: javaLogo },
-      { name: 'Python', logo: pythonLogo },
+      // { name: 'Python', logo: pythonLogo },
       { name: 'JavaScript', logo: javascriptLogo },
     ],
   },
@@ -108,22 +112,22 @@ export const SkillsInfo = [
         "Tailwind CSS",
       ],
     },
-    {
-      id: 1,
-      img: ipec,
-      role: "Python Trainee",
-      company: "Ipec Solutions",
-      date: "Oct 2022 - Nov 2022",
-      desc:"Completed a comprehensive course on sentiment analysis, focusing on extracting insights from unstructured social media data using Python, TextBlob, and data visualization tools like Matplotlib and Seaborn.",
-      skills: [
-        "Python",
-        "Django",
-        "JavaScript",
-        "HTML",
-        "CSS",
-        "SQL",
-      ],
-    },
+    // {
+    //   id: 1,
+    //   img: ipec,
+    //   role: "Python Trainee",
+    //   company: "Ipec Solutions",
+    //   date: "Oct 2022 - Nov 2022",
+    //   desc:"Completed a comprehensive course on sentiment analysis, focusing on extracting insights from unstructured social media data using Python, TextBlob, and data visualization tools like Matplotlib and Seaborn.",
+    //   skills: [
+    //     "Python",
+    //     "Django",
+    //     "JavaScript",
+    //     "HTML",
+    //     "CSS",
+    //     "SQL",
+    //   ],
+    // },
   ];
   
   export const education = [
@@ -159,6 +163,36 @@ export const SkillsInfo = [
   export const projects = [
     {
       id: 0,
+      title: "Prescripto: AI Powered Disease Prediction And Healthcare Assistant",
+      description:
+        "Developed a full-stack healthcare solution using AI to provide initial disease predictions and personalized wellness advice, improving patient guidance. Built with a secure Spring Boot backend and a responsive React UI, it streamlines administrative tasks with a complete doctor consultation and booking module.",
+      image: prescripto,
+      tags: ["Java","Springboot","React JS", "Gemini API", "HTML", "CSS", "Javascript","MySQL","Netlify"],
+      github: "https://github.com/Shashank-TS/Prescripto-AI-Healthcare-Assistant",
+      webapp: "https://prescripto-ai-healthcare-assistant.netlify.app/",
+    },
+    {
+      id: 1,
+      title: "QuickBlog: AI-Enhanced Full-Stack Blogging Platform ",
+      description:
+        "Developed a comprehensive blogging solution with a secure admin panel and a public blog, leveraging the Google Gemini API for AI-powered post generation and summarization. The full-stack application uses Spring Boot for the backend and a responsive React UI for a seamless user experience.",
+      image: quickblog,
+      tags: ["Java","Springboot","React JS", "Gemini API", "HTML", "CSS", "Javascript","MongoDB","Netlify"],
+      github: "https://github.com/Shashank-TS/QuickBlog-AI-Enhanced-Full-Stack-Blogging-Platform",
+      webapp: "https://quickblog-ai-enhanced.netlify.app/",
+    },
+    {
+      id: 2,
+      title: "Smart Email Assistant",
+      description:
+        "The Smart Email Assistant is an AI-powered tool that helps users generate professional email responses effortlessly. It is built using Spring Boot with Gemini API integration and provides both a React web interface and a Chrome Extension that integrates directly into Gmail.",
+      image: emailReply,
+      tags: ["Java","Spring Boot", "React JS", "API", "Gemini AI", "HTML", "CSS", "Javascript"],
+      github: "https://github.com/Shashank-TS/Smart-Email-Assistant",
+      webapp: "https://smart-email-assistant-sb.netlify.app/",
+    },
+    {
+      id: 3,
       title: "GitHub Profile Detective",
       description:
         "A powerful and user-friendly React.js application designed to uncover and showcase detailed GitHub profile information. Simply enter a GitHub username, and the app fetches comprehensive data, including profile stats, repositories, followers, and contributions. The intuitive interface ensures a seamless experience, making it a must-visit tool for developers and recruiters.",
@@ -168,15 +202,16 @@ export const SkillsInfo = [
       webapp: "https://github-profile-search-ts.netlify.app/",
     },
     {
-      id: 1,
-      title: "Smart Email Assistant",
+      id: 4,
+      title: "Weather App",
       description:
-        "The Smart Email Assistant is an AI-powered tool that helps users generate professional email responses effortlessly. It is built using Spring Boot with Gemini API integration and provides both a React web interface and a Chrome Extension that integrates directly into Gmail.",
-      image: emailReply,
-      tags: ["Spring Boot", "React JS", "API", "Gemini AI", "HTML", "CSS", "Javascript"],
-      github: "https://github.com/Shashank-TS/Smart-Email-Assistant",
-      webapp: "https://smart-email-assistant-sb.netlify.app/",
-    },    
+        "A sleek and simple ReactJS Weather App that fetches real-time weather data using the OpenWeather API. Users can enter a city name and get instant details like temperature, weather conditions, wind speed, and humidity.",
+      image: weatherApp,
+      tags: ["React JS", "OpenWeather API", "HTML", "CSS", "Javascript"],
+      github: "https://github.com/Shashank-TS/weather-app",
+      webapp: "https://weather-app-using-reactjs-by-shashank.netlify.app/",
+    },
+        
     // {
     //   id: 2,
     //   title: "Movie Recommendation App",
@@ -208,14 +243,4 @@ export const SkillsInfo = [
     //   webapp: "https://removeyourbg.netlify.app/",
     // },
     
-    {
-      id: 10,
-      title: "Weather App",
-      description:
-        "A sleek and simple ReactJS Weather App that fetches real-time weather data using the OpenWeather API. Users can enter a city name and get instant details like temperature, weather conditions, wind speed, and humidity.",
-      image: weatherApp,
-      tags: ["React JS", "OpenWeather API", "HTML", "CSS", "Javascript"],
-      github: "https://github.com/Shashank-TS/weather-app",
-      webapp: "https://weather-app-using-reactjs-by-shashank.netlify.app/",
-    },
   ];  
