@@ -19,7 +19,7 @@ const About = () => {
           {/* Typing Effect */}
           <div className="flex items-center gap-3 mb-4">
             <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold text-[#8245ec] leading-tight flex items-center">
-              <span className="text-white text-[24px]">I am a Fullstack Developer &nbsp;</span>
+              <span className="text-white text-[24px]">I am a <span className="text-[#8245ec]">Fullstack Developer &nbsp;</span></span>
               {/* <TypingAnimator
                 textArray={[
                   "Fullstack Developer",
@@ -56,7 +56,7 @@ const About = () => {
 
           {/* Resume Button */}
           <a
-            href="https://drive.google.com/file/d/1uSrIB6i1c4IdSyV1M5G0pv1HqBAz97df/view?usp=drivesdk"
+            href="https://drive.google.com/file/d/1OqaSNzQBLQdXe4Ks2XZY6BOQqWdy-PSU/view?usp=drive_link"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block text-white py-3 px-8 rounded-full mt-4 text-lg font-bold transition duration-300 transform hover:scale-105"
