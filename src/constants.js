@@ -136,7 +136,7 @@ export const SkillsInfo = [
       img: cityEng,
       school: "City Engineering College, Bangalore",
       date: "Dec 2021 - Jun 2025",
-      grade: "8.6 CGPA",
+      grade: "8.9 CGPA",
       desc: "I completed my BE in Computer Science from City Engineering College, Bangalore. Throughout my studies, I was immersed in a variety of subjects that deepened my understanding of computing and technology. From exploring Data Structures and Algorithms to diving into Web Development and Database Management Systems, I gained practical insights into the world of software development.",
       degree: "Bachelor of Engineering",
     },
